@@ -1,0 +1,1273 @@
+/* INDEX */
+
+/* NAVBAR */
+
+.navbar
+{
+    background: #008;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+/* catégories de la navbar */
+
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+
+.navbar li a
+{
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.acive a
+{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+
+.icon-bar
+{
+    background-color: #fff !important;
+}  
+
+
+
+
+
+/* PRESENTATION */
+
+#presentation
+{
+    padding-top: 120px;
+    padding-bottom: 160px;
+    background-color: #008;
+}
+
+/* photo présentation */
+
+.photoProfil img
+{
+    height: 60%;
+    width: 60%;
+    text-align: center;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+}
+
+/* texte présentation */
+
+.textProfil h1
+{
+    color: #fff;
+    padding-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.textProfil h3
+{
+    color: #fff;
+    padding-top: 35px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* bouton présentation */
+
+.buttonp
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #008;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 18px 50px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.buttonp:hover
+{
+    background: #fff;
+    color: #008;
+    text-decoration: none;
+}
+
+
+
+
+
+/* PROJETS */
+
+#projets
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.h2Projets
+{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    color: #008;
+}
+
+/* thumbnail projets */
+
+.thumbnail
+{
+    border: 3px solid #008;
+}
+
+.imageprojet
+{
+    border-radius: 20px;
+}
+
+#projets .thumbnail img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#projets .thumbnail img:hover
+{
+    filter: none;
+    -webkit-filter: none;
+}
+
+/* modal projets */
+
+.modal-title
+{
+    font-weight: bold;
+    color: #008;
+    padding-top: 10px;
+}
+
+.modal-body
+{
+    color: #008;
+}
+
+
+
+
+
+/* COMPETENCES */
+
+#competences
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #008;
+}
+
+.h2Competences
+{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* bouton timeline */
+
+#a2021, #a2022
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px; 
+}
+
+/* construction de la timeline */
+
+.timeline 
+{
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.timeline:before 
+{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li 
+{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after 
+{
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after 
+{
+    clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after 
+{
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after 
+{
+    clear: both;
+}
+
+.timeline > li > .timeline-panel 
+{
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline > li > .timeline-panel:before 
+{
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.timeline > li > .timeline-panel:after 
+{
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline > li > .timeline-badge 
+{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #999999;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel 
+{
+    float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before 
+{
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after 
+{
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-badge.info 
+{
+    background-color: #5bc0de !important;
+}
+
+.timeline-title 
+{
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul 
+{
+    margin-bottom: 0;
+}
+
+.timeline-body > p + p 
+{
+    margin-top: 5px;
+}
+
+.timeline-panel
+{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.pProjet
+{
+    padding-bottom: 10px;
+    color: #008;
+}
+
+.timeline-title
+{
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #008;
+}
+
+/* lien udemy */
+
+.lienUdemy
+{
+    color: #008 ! important;
+}
+
+.lienUdemy:hover
+{
+    font-weight: bold ! important;
+}
+
+
+
+
+
+/* PARCOURS SCOLAIRE */
+
+#parcoursScolaire
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.h2Scolaire
+{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    color: #008;
+}
+
+/* article parcours scolaire */
+
+article
+{
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/* overlay parcours scolaire */
+
+.overlay1
+{
+    background: rgba(255,255,255,0.95);
+    height: 100%;
+    width: 225px;
+    padding: 16px;
+    border-radius: 9px 0 0 9px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* texte parcours scolaire */
+
+.overlay1 h4
+{
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #008;
+}
+
+.lieuScolaire0
+{
+    color: #008;   
+}
+
+.dateScolaire0
+{
+    color: #008;
+}
+
+.dyplomeScolaire0
+{
+    color: #008;
+}
+
+.lieuScolaire
+{
+    padding-top: 16px;
+    padding-bottom: 14px;
+    color: #008;
+}
+
+.dateScolaire
+{
+    padding-bottom: 16px;
+    color: #008;
+}
+
+/* bouton parcours scolaire et modal projets */
+
+.buttons
+{
+    font-weight: bold;
+    color: #fff;
+    background-color: #008;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 13px;
+    padding: 7px 25px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in 0s;
+}
+
+.buttons:hover
+{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+/* FORMULAIRE */
+
+#formulaire
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #008;
+}
+
+.h2Formulaire
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+/* label formulaire */
+
+.form-control
+{
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;  
+}
+
+.labelFormulaire
+{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.remerciement
+{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+/* bouton formulaire */
+
+.buttonf
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in 0s;
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.buttonf:hover
+{
+    background: #fff;
+    color: #008;
+    text-decoration: none;
+}
+
+/* mailto formulaire */
+
+.mailtoForm
+{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    transition: all 0.3s ease-in 0s;
+}
+
+.mailtoForm:hover
+{
+    color: #007fff;
+    text-decoration: none;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+    padding: 20px 0 40px;
+}
+
+footer h5
+{
+    color: #008;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* glyphicon footer */
+
+footer .glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: #008;
+    height: 30px;
+    display: block;
+}
+
+footer .glyphicon:hover
+{
+    font-size: 27px;
+}
+
+
+
+
+
+/* FICHES PROJETS */
+
+
+/* HEADER PROJET*/
+
+#headerProjet
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #008;
+}
+
+.titreProjet
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* bouton retour */
+
+.butons
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #008;
+    border: 1px solid white;
+    margin-top: 13px;
+    padding: 7px 25px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in 0s;
+}
+
+.butons:hover
+{
+    background: #fff;
+    color: #008;
+    text-decoration: none;
+}
+
+
+
+
+
+/* PRESENTATION PROJET  */
+
+#presentationProjet
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projet-block
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: none;
+    padding-top: 10px;
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #008;
+    border-radius: 10px;
+}
+
+.projet-block h3
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.projet-block h4
+{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.projet-block p
+{
+    color: #fff;
+    padding-bottom: 15px;
+    margin: auto;
+}    
+
+/* lien udemy */
+
+.lienUdemy2
+{
+    color: white;
+}
+
+.lienUdemy2:hover
+{
+    color: #5bc0de;
+}
+
+/* bouton téléchager le projet */    
+
+.buttonpro
+{
+    font-weight: bold;
+    color: #fff;
+    background-color: #008;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: -90px;
+    padding: 7px 25px;
+    border-radius: 3px;
+    transition: all 0.5s ease-in 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonpro:hover
+{
+    background: #fff;
+    color: #008;
+    text-decoration: none;
+}
+
+
+
+
+
+/* IMAGES PROJET */
+
+#imagesProjet
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #008;
+}
+
+.h2Photos
+{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* carousel */
+
+#carousel
+{
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+/* CONNEXION */
+
+.sucess
+{
+    text-align: center;
+    color: white;
+}
+
+.sucess a 
+{
+    text-decoration: none;
+    color: #58aef7;
+}
+
+p.errorMessage 
+{
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+#login
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #008;
+}
+
+.hConnexion
+{
+    color: #008;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+/* bouton de la section connexion */
+
+.footerLogin glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+    height: 30px;
+    padding-top: 50px;
+}
+
+.btnajouter2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in 0s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+    
+}
+
+.btnajouter2:hover
+{
+    background: #5bc0de;
+    color: #008;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ADMIN */
+
+/* CHOIX */
+
+#choix
+{
+    background-color: #008;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1Choix
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.gestion
+{
+    text-align: center;
+    color: #000;
+    padding: 50px;
+}
+
+.btnchoix
+{
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 10px -10px #ddd;
+    margin-bottom: 50px;
+}
+
+.btnchoix:hover
+{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
+
+/* VIEW MESSAGE */
+
+#gMessage
+{
+    background-color: #008;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1Messages
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.tableauMesssage
+{
+    color: #fff;
+}
+
+.titreTableau
+{
+    color: #fff;
+}
+
+.contenuTableau a
+{
+    color: #fff;
+}
+
+
+
+
+/* VIEW MESSAGE COMPLET */
+
+#messComplet
+{
+    background-color: #008;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.affichageMes
+{
+    color: #008;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 10px -10px #ddd;
+}
+
+.h4Qui
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.h4Message
+{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+/* VIEW */
+
+#view
+{
+    background-color: #008;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1Projet
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.thumbnail
+{
+    color: #008;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    border-radius: 25px;
+    box-shadow: 10px -10px #ddd;
+}
+
+/* écriture thumbnail */
+
+.h4Projet
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.pProjetBO
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.pDetailProjet
+{
+    padding-left: 17px;
+    padding-bottom: 5px;
+    
+}
+
+.pDetailProjet1
+{
+    text-align: center;
+}
+
+/* bouton de la section */
+
+.btnModifier
+{
+    font-weight: bold;
+    color: #fff;
+    background-color: #008;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.btnModifier:hover
+{
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+.btnSupprimer
+{
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.btnSupprimer:hover
+{
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+#footerBO .glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+    height: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+
+/* INSERT */
+
+#insert
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1ajouterProjet
+{
+    color: #008;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+
+.labelFormulaireProjet
+{
+    color: #008;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* bouton insert glyphicon et message d'erreur */
+
+#footerBO2 .glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: #008;
+    height: 30px;
+    padding-top: 30px;
+}
+
+.btnImageProjet
+{
+    color: #008;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.help-inline
+{
+    color: red;
+    font-style: italic;
+}
+
+/* bouton ajouter */
+
+.btnajouter
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #008;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in 0s;
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.btnajouter:hover
+{
+    background: #5bc0de;
+    color: #008;
+    text-decoration: none;
+}
+
+
+
+
+
+/* DELETE */
+
+#delete
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.h1Delete
+{
+    text-align: center;
+    color: #008;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+.form-actions
+{
+    padding-top: 15px;
+}
+
+
+
+
+
+/* UPDATE*/
+
+.hModifier
+{
+    color: #008;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase; 
+    padding-bottom: 20px;
+}
+
+.imagePng
+{
+    color: #008;
+}
+
+#footerBO3 .glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    padding-bottom: 30px;
+    color: #008;
+    height: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+
+/* AUTRES FOOTER */
+
+#finPortfolio
+{
+    background-color: #008;
+}
+
+#finPortfolio span
+{
+    color: #fff;
+}
+
+#finPortfolio h5
+{
+    color: #fff;
+}
+
+/* PAGE 2 */
+
+#footerPhotos
+{
+    background-color: #008;
+    text-align: center;
+    padding: 20px;
+}
+
+#footerPhotos .glyphicon
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: #fff;
+    height: 30px;
+    display: block;
+}
+
+#footerPhotos .glyphicon:hover
+{
+    font-size: 27px;
+}
